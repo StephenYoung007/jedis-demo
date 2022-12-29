@@ -49,6 +49,7 @@ public class JedisDemo {
         String result = jedis.set("name", "stephen");
         System.out.println("result = " + result);
 
+
         String name = jedis.get("name");
         System.out.println("name = " + name);
     }
